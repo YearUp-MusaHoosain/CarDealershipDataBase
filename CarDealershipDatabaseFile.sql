@@ -115,7 +115,7 @@ VALUES
 # ---------------------------------------------------------------------- #
 # Add info into "Vehicle"                                                #
 # ---------------------------------------------------------------------- #
-INSERT INTO vehicles (VIN, Year, Make, Model, VehicleType, Color, Odometer, Price)
+INSERT INTO vehicles (VehicleVIN, Year, Make, Model, VehicleType, Color, Odometer, Price)
 VALUES
 (10001, 2021, 'Ford', 'Mustang', 'Coupe', 'Red', 12000, 25000.0),
 (10005, 2020, 'BMW', '3 Series', 'Sedan', 'Blue', 15000, 35000.0),
